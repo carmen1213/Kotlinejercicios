@@ -24,9 +24,9 @@ fun main() {
     }
 
 
-    println(ArrayNumero)
-    println(ArrayNumerosimpares)
-    println(ArrayNumerosprimos)
+    println("Este es el array creado aleatoriamnete: "+ArrayNumero)
+    println("Este es el Array creado a partir del original de numeros impares: " + ArrayNumerosimpares)
+    println( "Este es el Array creado a partir del original de numeros primos : " +ArrayNumerosprimos)
     }
 
 fun checkPrimo(num: Int): Boolean { // función que retorna un booleano
